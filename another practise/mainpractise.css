@@ -1,5 +1,5 @@
 
-body: {
+body {
 	margin: 0;
 }
 
@@ -7,4 +7,53 @@ body: {
 header{
 	background: #777;
 	color: white;
+	padding: 14px 15px 0px 15px;/*format top right bottom left*/
+}
+
+header h1 {
+	margin: 0;
+	display: inline; /* line it up inline with anything else defined inline*/
+}
+
+nav ul {
+	margin: 0;
+	padding:0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none; /*removed bullet points*/
+	padding: 5px 14px;
+	margin: 0;
+}
+
+nav ul li a {
+	color: white;
+}
+
+.row:after{
+	clear:both;
+}
+
+.col {
+	background: #333;
+	border-radius: 5px;/*make rounded corners*/
+	padding: 10px 5px;
+	color: white;
+	float: left;
+	margin: 0.5%;
+	width: 31%;/*each of the columns take up 33%
+	(so in total take up whole width)
+	can use % for width, margin etc. if it goes over 100%
+	it will just keep wrapping around
+	USE PERCENTAGE CHANGES if you want it to look nice
+	on all devices and all sized browsers*/
+}
+
+footer {
+	clear: both; /* this is telling it to clear all the floats left and rights*/
+	padding: 5px 14px;
 }
