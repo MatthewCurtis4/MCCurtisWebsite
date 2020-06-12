@@ -10,12 +10,68 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!--Styles-->
 	<link rel="stylesheet" href="css/main.css">
-
+	<!--From link font awesome-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+	<!--from google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
   </head>
+
+
+
   <body>
-	  
+	<!--first line depend when to expand and change width menu depending on device-->  
+	<nav class="navbar navbar-expand-sm fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">MC Curtis</a>
+			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+				<ul class="nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">The Intro <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">UCU</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">Socials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Collabs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-secondary" href="#">Contact</a>
+					</li>
+
+					<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Full Distography Links</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownId">
+							<a class="dropdown-item" href="#">Fuck With the Vision</a>
+							<a class="dropdown-item" href="#">Make a Mill</a>
+							<a class="dropdown-item" href="#">Keep the Liquor Flowin'</a>
+							<a class="dropdown-item" href="#">Loud That I Smoke</a>
+							<a class="dropdown-item" href="#">Freestyle Henny</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		
+	</nav>
+
+	<!--Home-->
+	<section class="home container">
+		<div class="row mt-5">
+			<div class="col-lg-6 mt-5 py-5 pl-5">
+				<img class="img-fluid" alt="" src="images/MillCoverDark.jpg">
+			</div>
+		</div>
+	</section>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
