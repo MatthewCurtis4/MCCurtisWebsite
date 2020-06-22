@@ -15,6 +15,11 @@ body{
 	font-family: arial;
 }
 
+body.main{
+	background: white;
+	font-family: arial;
+}
+
 h1 {
 	color: #555;
 }
@@ -28,7 +33,7 @@ h4 {
 }
 
 a {
-	color: black;
+	color: white;
 }
 
 li {
@@ -71,15 +76,23 @@ h2 {text-align: center;}
   p.UCUdark {
 	border-radius: 5px;
   }
+.row{
+	padding: 20px 20px 20px 20px;
+}
+.row:after{
 
-  .col {
+	clear:both;
+}
+
+.col {
 	background: #333;
 	border-radius: 5px;/*make rounded corners*/
+	/*padding: 10px 5px;*/
 	padding: 10px 5px;
 	color: white;
 	float: left;
 	margin: 0.5%;
-	width: 31%;/*each of the columns take up 33%
+	width: 30%;/*each of the columns take up 33%
 	(so in total take up whole width)
 	can use % for width, margin etc. if it goes over 100%
 	it will just keep wrapping around
