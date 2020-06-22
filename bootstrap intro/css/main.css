@@ -15,8 +15,16 @@ body{
 	font-family: arial;
 }
 
-h1, h3 {
+h1 {
 	color: #555;
+}
+
+h4 {
+	background: #555;
+	color: rgb(245, 245, 245);
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	
 }
 
 a {
@@ -52,13 +60,29 @@ h2.titlestart {
 }
 h2 {text-align: center;}
 
+
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 40%;
   }
 
   p.UCUdark {
 	border-radius: 5px;
   }
+
+  .col {
+	background: #333;
+	border-radius: 5px;/*make rounded corners*/
+	padding: 10px 5px;
+	color: white;
+	float: left;
+	margin: 0.5%;
+	width: 31%;/*each of the columns take up 33%
+	(so in total take up whole width)
+	can use % for width, margin etc. if it goes over 100%
+	it will just keep wrapping around
+	USE PERCENTAGE CHANGES if you want it to look nice
+	on all devices and all sized browsers*/
+}
