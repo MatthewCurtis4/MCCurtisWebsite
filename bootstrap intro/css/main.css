@@ -20,6 +20,11 @@ body.main{
 	font-family: arial;
 }
 
+.wrapper{
+	text-align: center;
+	padding-top: 10px;
+}
+
 h1 {
 	color: #555;
 }
@@ -65,7 +70,7 @@ p {
 
 h2.titlestart {
 	border: 1px solid red;
-	padding: 25px 0px 20px 0px;
+	padding: 30px 0px 20px 0px;
 }
 h2 {text-align: center;}
 
