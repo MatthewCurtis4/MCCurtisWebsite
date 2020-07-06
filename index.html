@@ -1,40 +1,193 @@
-<! –– naming it .html means chrome will recognize it as a webspage 
-learn
-html - just content
-css - puts your style/look to webpage
-javascript - function, makes it do stuff like load data real time. javascript is key and people are looking for people who know javascript
-
-html is all about tags <something>
-
-
 <!doctype html>
-<html>
+<html lang="en">
+  <head>
+	<title>MC Curtis</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<head>
-		<title>MC Curtis</title>
-		<link href="main.css" rel="stylesheet" type="text/css" />
-	</head>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--Styles-->
+	<link rel="stylesheet" href="css/main.css">
+	<!--From link font awesome-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--from google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  </head>
 
-	<body>
-		<h1> MC Curtis </h1>
-		<h3> The young prodigy </h3>
-		<ul>
-			<li>Home</li>
-			<li><a href="theintro.html">The Intro EP</a></li>
-			<li><a href="UCU.html"> UCU</a></li>
-			<li><a href="MusicLinks.html">Streaming and Account Links </a></li>
-		</ul>
 
-		<p> 
-		This is the page for the up and coming rapper <em>MC Curtis</em> who just <br> released his first major project <strong><a href="theintro.html">The Intro EP</a></strong>
+
+  <body class="main">
+	<!--first line depend when to expand and change width menu depending on device-->  
+	<nav class="navbar navbar-expand-md navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">MC Curtis</a>
+			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+				<ul class="nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="theintro.html">The Intro <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="FreezeUp.html">Freeze Up</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="UCU.html">UCU</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="Socials.html">Socials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Collabs.html">Collabs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-outline-secondary" href="#">Contact</a>
+					</li>
+
+					<li class="nav-item">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Full Distography Links</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownId">
+							<a class="dropdown-item" href="FWTV.html">Fuck With the Vision</a>
+							<a class="dropdown-item" href="MakeAMill.html">Make a Mill</a>
+							<a class="dropdown-item" href="LiquorFlowin.html">Keep the Liquor Flowin'</a>
+							<a class="dropdown-item" href="LoudThatISmoke.html">Loud That I Smoke</a>
+							<a class="dropdown-item" href="FreestyleHenny.html">Freestyle Henny</a>
+							<a class="dropdown-item" href="Sick.html">Sick When You Do That Remix</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		
+	</nav>
+
+	<!--Home-->
+	<section class="home container">
+		<div class="row mt-5">
+			<div class="col-lg-6 mt-5 py-5 pl-5">
+				<img class="img-fluid" alt="" src="img/MillCoverDark.png">
+			</div>
+			<!--my means margin on y-->
+			<div class="col-lg-6 my-auto">
+				<!-- so we have 12 rows to work with-->
+				<div class="row">
+					<div class="home-content offset -lg-1 col-lg-10">
+						<h1 class="pb-3"> MC Curtis</h1><!--pb means padding bottom-->
+						<h2 class="pb-3"> On The Rise</h2>
+						<p class="pb-3"> This is the page for the up and coming rapper <em>MC Curtis</em> who just <br> released 
+						his first major project <strong><a href="theintro.html">The Intro EP</a></strong>.
+
+						</p>
+
+						<button class="btn btn-lg btn-outline-secondary"><a class="indexButton"
+							href="theintro.html">The Intro EP</a></button>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+<section class="go-stream py-5" style="background-color: antiquewhite;">
+	<!--Making the size of this class. text in center
+	and width of text 50% of the screen-->
+	<div class="container text-center w-100">
+		<h2 class="py-3">The Man Behind the Music</h2>
+		<div class="mx-auto heading-line"></div>
+		<p class="py-3">MC Curtis is an up and coming rapper from the Greater Toronto Area. MC Curtis 
+			started in the music industry when he created his distribution and management company
+			 Underground Comeup Records (UCU). In early 2019 he released a collaborative album with 
+			 artists from Toronto to showcase there talent called "Toronto After Dark" (MC Curtis did 
+			 not actually rap on this project). In July 2019 to follow up, he released "Toronto After
+			  Dark 2" which had the first appearance of MC Curtis with his first ever release "Fuck
+			   With the Vision" which has received over 20 thousands streams on spotify which significantly
+			    out performed the rest of the tracks on Toronto After Dark 2. 
+
+			MC Curtis is currently in university for software engineering so his schedule is pretty chaotic but he still
+			 finds time to dedicate to his craft. MC Curtis has dropped a couple of songs all leading up to his
+			  first EP release titled <a href="https://ampl.ink/emXGL"><u>"The Intro"</u></a> which he released June 1st which has already garnered thousands
+			  of streams! This tape included standout tracks such as <a href="https://ampl.ink/G6ReO"><u>Freestyle Henny</u></a> Which already has surpassed 10k streams
+			  on soundcloud alone and <a href="https://ampl.ink/nDlYq"><u>No Cap</u></a>
+			  which is currently sitting at over 7k streams on Spotify. Make sure to stay up to date and follow me on my journey and check out my new single 
+			  <a href="https://distrokid.com/hyperfollow/mccurtis/freeze-up-2"><u>Freeze Up</u></a>, you won't be disappointed!
+			  
+			</p>
+			<button class="btn btn-lg btn-outline-secondary"><a class="indexButton"
+				href="https://distrokid.com/hyperfollow/mccurtis/freeze-up-2">Stream Freeze Up</a></button>
+	</div>
+
+
+</section
+<!--Check Out MC Curtis' New EP-->
+<section class="go-stream py-5" style="background-color: aquamarine;">
+	<!--Making the size of this class. text in center
+	and width of text 50% of the screen-->
+	<div class="container text-center w-60">
+		<h2 class="py-3">Check Out MC Curtis' New EP</h2>
+		<div class="mx-auto heading-line"></div>
+		<p class="py-3">MC Curtis started his career being featured on Toront After Dark 2 but he released his first
+			solo mixtape/ep on June 1st 2020 with stand out hits <a href="https://ampl.ink/G6ReO"><u>Freestyle Henny</u></a> and <a href="https://ampl.ink/nDlYq"><u>No Cap</u></a>.
 		</p>
+		<button class="btn btn-lg btn-primary"><a class="indexButton"
+			href="https://ampl.ink/emXGL">Stream Here</a></button>
+	</div>
 
-		check it out on
-		<a href="https://open.spotify.com/album/3gshESZiZ7DXyBtyAnsh1h?si=km0ozNpZTlOFNsPgJhVwXQ">spotify</a>
 
-		<img src="https://i1.wp.com/www.dailycal.org/assets/uploads/2018/06/Flatbush-Zombies_Ben-Kay.Courtesy.jpg?ssl=1">
+</section>
 
-	</body>
+<section style="background-color: aqua;">
 
+
+
+<h4 ><Strong>Spotify</Strong></h4>
+
+<!-- <div class="container">container is the section from MC Curtis to full distography at top -->
+	<div class="row">
+		<div class="col">
+			<a href="https://open.spotify.com/album/3gshESZiZ7DXyBtyAnsh1h?si=km0ozNpZTlOFNsPgJhVwXQ">MC Curtis</a>
+		</div>
+		<div class="col">
+			<a href="https://open.spotify.com/album/3gshESZiZ7DXyBtyAnsh1h?si=km0ozNpZTlOFNsPgJhVwXQ">The Intro EP</a>
+		</div>
+		<div class="col">
+			<a href="https://open.spotify.com/playlist/3PmJwwC3EIw6qrc9JaqmTp?si=5WTrq6tZRfeuIa6bOHZDPA">All Toronto Playlist</a>  
+		</div>        
+	</div>
+</div>
+
+
+
+
+<h4 ><Strong>SoundCloud</Strong></h4>
+	<!-- <div class="container">container is the section from MC Curtis to full distography at top -->
+		<div class="row">
+			<div class="col">
+				<a href="https://soundcloud.com/user-593936036">MC Curtis</a>
+			</div>
+			<div class="col">
+				<a href="https://soundcloud.com/user-593936036/sets/the-intro-1">The Intro EP</a>
+			</div>      
+		</div>
+	</div>
+
+
+</section>
+
+
+<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
-
