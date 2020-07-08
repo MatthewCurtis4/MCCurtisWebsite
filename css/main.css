@@ -40,7 +40,6 @@ h4 {
 a {
 	color: white;
 }
-
 li {
 	color: #333;
 }
@@ -127,3 +126,5 @@ h2 {text-align: center;}
 ul {
 	background: rgba(255, 255, 255, 0.3);
   }
+
+  <img  src="img/phoneimage.jpg" id="smaller-image" >
