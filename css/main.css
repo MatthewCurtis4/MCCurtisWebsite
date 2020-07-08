@@ -115,6 +115,7 @@ h2 {text-align: center;}
 	color: white;
 	float: left;
 	margin: 0.5%;
+	text-align: center;
 	width: 30%;/*each of the columns take up 33%
 	(so in total take up whole width)
 	can use % for width, margin etc. if it goes over 100%
@@ -122,3 +123,7 @@ h2 {text-align: center;}
 	USE PERCENTAGE CHANGES if you want it to look nice
 	on all devices and all sized browsers*/
 }
+
+ul {
+	background: rgba(255, 255, 255, 0.3);
+  }
