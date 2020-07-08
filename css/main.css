@@ -146,3 +146,14 @@ img.rounded-corners {
     color: #000000;
     text-decoration: none;
 }
+
+.Contactcontainer{
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 10px;
+	
+}
+
+h1.darkercolor{
+	color: black;
+}
