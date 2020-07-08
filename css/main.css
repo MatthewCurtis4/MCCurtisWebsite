@@ -127,4 +127,13 @@ ul {
 	background: rgba(255, 255, 255, 0.3);
   }
 
-  <img  src="img/phoneimage.jpg" id="smaller-image" >
+/*
+use this if i wanted to do an id
+*/
+#smaller-image{
+	width: 90%;
+	height: auto;
+}
+
+
+
