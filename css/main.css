@@ -157,3 +157,23 @@ img.rounded-corners {
 h1.darkercolor{
 	color: black;
 }
+
+.contactandsocials{
+	background-color: black;
+	margin-top: 5px;
+	display: flex;
+	vertical-align: middle;
+}
+
+.center-vertically {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+  }
+
+div.form-group{
+	text-align: left;
+}

@@ -1,22 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Contact</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Contact</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  	<!--Styles-->
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--Styles-->
 	<link rel="stylesheet" href="css/main.css">
 	<!--From link font awesome-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--from google fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
   </head>
-  <body>
-	<nav class="navbar navbar-expand-sm fixed-top">
+
+
+
+  <body class="main">
+	<!--first line depend when to expand and change width menu depending on device-->  
+	<nav class="navbar navbar-expand-md navbar-light fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">MC Curtis</a>
 			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -29,16 +33,14 @@
 						<a class="nav-link" href="theintro.html">The Intro <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="UCU.html">UCU</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link" href="FreezeUp.html">Freeze Up</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Socials.html">Socials</a>
+						<a class="nav-link" href="UCU.html">UCU</a>
 					</li>
+
 					<li class="nav-item">
-						<a class="nav-link" href="Collabs.html">Collabs</a>
+						<a class="nav-link" href="Socials.html">Socials</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link btn btn-outline-secondary" href="Contact.html">Contact</a>
@@ -53,7 +55,7 @@
 							<a class="dropdown-item" href="LiquorFlowin.html">Keep the Liquor Flowin'</a>
 							<a class="dropdown-item" href="LoudThatISmoke.html">Loud That I Smoke</a>
 							<a class="dropdown-item" href="FreestyleHenny.html">Freestyle Henny</a>
-							<a class="dropdown-item" href="Sick.html">Sick When U Do That Remix</a>
+							<a class="dropdown-item" href="Sick.html">Sick When You Do That Remix</a>
 						</div>
 					</li>
 				</ul>
@@ -61,20 +63,23 @@
 
 		</div>
 		
-	</nav>
-
-    <section class="contact and socials container-fluid bg-light pt-5">
-
+</nav>
+<!--container-fluid makes it so it fits whole space wide-->
+    <section class="contactandsocials container-fluid" style="background-color: white;">
+    <div class="center-vertically">
         <div class="container text-center">
-            <h2 class="py-2"> Email List and Socials </h2>
+            <h1 class="py-2"> Contact </h1>
+            <p  style="border-radius: 30px;"> For any business opportunities and inquiries feel free to email me 
+            at <b>undergroundcomeupinquiry@gmail.com</b> or leave your message below
+            </p>
         </div>
-        <div class="row">
+        <div class="row mt-15">
     
             <div class="col-lg-6">
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input id="email" type="email" class="form-control" aria-describedby="emailcode" placeholder="Your Email">
-                    <small id="emailcode" class="form-text text-muted">or email undergroundcomeupinquiry@gmail.com</small>
+                    <small id="emailcode" class="form-text text-muted">your email address will not be shared without your knowledge other than with our team</small>
                 </div>
             
                 <div class="form-group">
@@ -90,26 +95,15 @@
             </div>
     
     
-            <div class="col-lg-6 d-flex aligh-items-center justify-content-center pt-3" style="width:50%">
-                <div class="text-center">
-                    <h4 class="py-2" style="border-radius: 30px;">Socials</h4>
-    
-                    <!--Use target blank to ensure it opens in another tab-->
-                <div class="socialLinks py-3">
-                    <a href="http://facebook.com" class="fa fa-facebook-square m-2" style="color: blue" target="_blank" ></a>
-                    <a href="https://twitter.com" class="fa fa-twitter m-2" style="color: blue" target="_blank"></a> 
-                    <a href="http://instagram.com" class="fa fa-instagram m-2" style="color: blue" target="_blank" ></a>
-                    <a href="https://spotify.com" class="fa fa-spotify m-2" style="color: blue" target="_blank"></a> 
-    
-                </div>
-    
-                <div class="container text-center" style="width:60%">
-                <img class="img-fluid" src="img/phoneimage.jpg" id="smaller-image">
+            <div class="col-lg-6" style="width:50%">
+                <div class="container text-center" style="width:100%">
+                <img class="img-fluid" src="img/oldphone.jpg"  style="border-radius: 30px;">
                 </div>
                 </div>
                 
             </div>	
         </div>
+    </div>
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
