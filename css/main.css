@@ -6,6 +6,10 @@
 	background: #666;
 }
 
+.darkmatchintro {
+	background: rgb(34,49,45);
+}
+
 .BGdarkest {
 	background: #222;
 }
@@ -116,6 +120,22 @@ h2 {text-align: center;}
 	margin: 0.5%;
 	text-align: center;
 	width: 30%;/*each of the columns take up 33%
+	(so in total take up whole width)
+	can use % for width, margin etc. if it goes over 100%
+	it will just keep wrapping around
+	USE PERCENTAGE CHANGES if you want it to look nice
+	on all devices and all sized browsers*/
+}
+
+.col-emptybg {
+	border-radius: 5px;/*make rounded corners*/
+	/*padding: 10px 5px;*/
+	padding: 10px 5px;
+	color: white;
+	float: left;
+	margin: 0.5%;
+	text-align: center;
+	width: 48%;/*each of the columns take up 33%
 	(so in total take up whole width)
 	can use % for width, margin etc. if it goes over 100%
 	it will just keep wrapping around
