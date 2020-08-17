@@ -99,9 +99,6 @@ h2 {text-align: center;}
 	border-radius: 5px;
   }
 
-.middle{
-	align-items: center;
-}
 .row{
 	padding: 20px 20px 20px 20px;
 }
@@ -167,6 +164,7 @@ img.rounded-corners {
     text-decoration: none;
 }
 
+
 .Contactcontainer{
 	padding-top: 80px;
 	text-align: center;
@@ -197,3 +195,15 @@ h1.darkercolor{
 div.form-group{
 	text-align: left;
 }
+
+.fa-apple-music .fa-music:before {
+	content: '\266B';
+  }
+  .fa-apple-music .fa-music {
+	color: #FFFFFF;
+  }
+  .fa-apple-music-o .fa-music {
+	color: #000000;
+	font-size: 0.75rem;
+	line-height: 1.90rem;
+  }
