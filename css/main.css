@@ -99,8 +99,8 @@ h2 {text-align: center;}
 	border-radius: 5px;
   }
 
-.pb-3 {
-	
+.middle{
+	align-items: center;
 }
 .row{
 	padding: 20px 20px 20px 20px;
