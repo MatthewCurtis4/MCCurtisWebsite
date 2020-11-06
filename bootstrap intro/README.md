@@ -1,2 +1,0 @@
-# MC-Curtis.github.io
- 
