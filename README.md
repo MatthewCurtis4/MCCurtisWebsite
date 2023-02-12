@@ -1,7 +1,6 @@
 
 This is a project I made for the music I make.
 
-Website page can be found at:
-https://matthewcurtis4.github.io/MCCurtisWebsite/
+With the main purpose of creating my own html/css web page to develop my skills.
 
 
